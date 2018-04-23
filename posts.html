@@ -1,0 +1,39 @@
+<?php
+
+	include 'header.php';
+	
+?>
+
+<div class="container">
+
+	<h1>Create a New Post</h1>
+
+	<form action="" method="POST">
+
+		<div class="form-group">
+		
+			<label for="makePost">Make post</label>
+			
+			<textarea class="form-control" id="makePost" name="makePost" rows="3" placeholder="What's on your mind?"></textarea>
+			
+		</div>
+		
+		<div class="form-group">
+			
+			<input type="file" class="form-control-file" id="photoPost" name="photoPost">
+			
+		</div>
+		
+		<button id="postID" name="submit">Submit</button>
+
+	</form>
+
+	<a href="homepage.php">Go back</a>
+
+</div>
+
+<?php
+
+	include 'footer.php';
+	
+?>
